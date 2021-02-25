@@ -71,10 +71,10 @@ shell script will configure and start a client on a blank Ubuntu 20.04 LTS VM:
 
 # Install Docker and docker-compose
 sudo apt-get update
-sudo sudo snap install docker
+sudo snap install docker
 
 # clone the nlp_imdb example
-git https://github.com/scaleoutsystems/FEDn-client-casa-keras.git
+git clone https://github.com/scaleoutsystems/FEDn-client-casa-keras.git
 cd FEDn-client-casa-keras
 
 # if no available data, download it from archive
