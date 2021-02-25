@@ -1,0 +1,2976 @@
+version: '3.3'
+services:
+  client1:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa1/c0:/app/data
+  client2:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa1/c1:/app/data
+  client3:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa1/c2:/app/data
+  client4:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa1/c3:/app/data
+  client5:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa1/c4:/app/data
+  client6:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa1/c5:/app/data
+  client7:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa1/c6:/app/data
+  client8:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa1/c7:/app/data
+  client9:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa1/c8:/app/data
+  client10:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa1/c9:/app/data
+  client11:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa1/c10:/app/data
+  client12:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa2/c0:/app/data
+  client13:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa2/c1:/app/data
+  client14:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa2/c2:/app/data
+  client15:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa2/c3:/app/data
+  client16:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa2/c4:/app/data
+  client17:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa2/c5:/app/data
+  client18:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa2/c6:/app/data
+  client19:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa2/c7:/app/data
+  client20:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa2/c8:/app/data
+  client21:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa2/c9:/app/data
+  client22:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa2/c10:/app/data
+  client23:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa3/c0:/app/data
+  client24:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa3/c1:/app/data
+  client25:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa3/c2:/app/data
+  client26:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa3/c3:/app/data
+  client27:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa3/c4:/app/data
+  client28:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa3/c5:/app/data
+  client29:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa3/c6:/app/data
+  client30:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa3/c7:/app/data
+  client31:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa3/c8:/app/data
+  client32:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa3/c9:/app/data
+  client33:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa3/c10:/app/data
+  client34:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa4/c0:/app/data
+  client35:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa4/c1:/app/data
+  client36:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa4/c2:/app/data
+  client37:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa4/c3:/app/data
+  client38:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa4/c4:/app/data
+  client39:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa4/c5:/app/data
+  client40:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa4/c6:/app/data
+  client41:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa4/c7:/app/data
+  client42:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa4/c8:/app/data
+  client43:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa4/c9:/app/data
+  client44:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa4/c10:/app/data
+  client45:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa5/c0:/app/data
+  client46:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa5/c1:/app/data
+  client47:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa5/c2:/app/data
+  client48:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa5/c3:/app/data
+  client49:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa5/c4:/app/data
+  client50:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa5/c5:/app/data
+  client51:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa5/c6:/app/data
+  client52:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa5/c7:/app/data
+  client53:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa5/c8:/app/data
+  client54:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa5/c9:/app/data
+  client55:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa5/c10:/app/data
+  client56:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa6/c0:/app/data
+  client57:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa6/c1:/app/data
+  client58:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa6/c2:/app/data
+  client59:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa6/c3:/app/data
+  client60:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa6/c4:/app/data
+  client61:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa6/c5:/app/data
+  client62:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa6/c6:/app/data
+  client63:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa6/c7:/app/data
+  client64:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa6/c8:/app/data
+  client65:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa6/c9:/app/data
+  client66:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa6/c10:/app/data
+  client67:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa7/c0:/app/data
+  client68:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa7/c1:/app/data
+  client69:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa7/c2:/app/data
+  client70:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa7/c3:/app/data
+  client71:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa7/c4:/app/data
+  client72:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa7/c5:/app/data
+  client73:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa7/c6:/app/data
+  client74:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa7/c7:/app/data
+  client75:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa7/c8:/app/data
+  client76:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa7/c9:/app/data
+  client77:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa7/c10:/app/data
+  client78:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa8/c0:/app/data
+  client79:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa8/c1:/app/data
+  client80:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa8/c2:/app/data
+  client81:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa8/c3:/app/data
+  client82:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa8/c4:/app/data
+  client83:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa8/c5:/app/data
+  client84:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa8/c6:/app/data
+  client85:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa8/c7:/app/data
+  client86:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa8/c8:/app/data
+  client87:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa8/c9:/app/data
+  client88:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa8/c10:/app/data
+  client89:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa9/c0:/app/data
+  client90:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa9/c1:/app/data
+  client91:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa9/c2:/app/data
+  client92:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa9/c3:/app/data
+  client93:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa9/c4:/app/data
+  client94:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa9/c5:/app/data
+  client95:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa9/c6:/app/data
+  client96:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa9/c7:/app/data
+  client97:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa9/c8:/app/data
+  client98:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa9/c9:/app/data
+  client99:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa9/c10:/app/data
+  client100:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa10/c0:/app/data
+  client101:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa10/c1:/app/data
+  client102:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa10/c2:/app/data
+  client103:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa10/c3:/app/data
+  client104:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa10/c4:/app/data
+  client105:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa10/c5:/app/data
+  client106:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa10/c6:/app/data
+  client107:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa10/c7:/app/data
+  client108:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa10/c8:/app/data
+  client109:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa10/c9:/app/data
+  client110:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa10/c10:/app/data
+  client111:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa11/c0:/app/data
+  client112:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa11/c1:/app/data
+  client113:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa11/c2:/app/data
+  client114:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa11/c3:/app/data
+  client115:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa11/c4:/app/data
+  client116:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa11/c5:/app/data
+  client117:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa11/c6:/app/data
+  client118:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa11/c7:/app/data
+  client119:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa11/c8:/app/data
+  client120:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa11/c9:/app/data
+  client121:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa11/c10:/app/data
+  client122:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa12/c0:/app/data
+  client123:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa12/c1:/app/data
+  client124:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa12/c2:/app/data
+  client125:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa12/c3:/app/data
+  client126:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa12/c4:/app/data
+  client127:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa12/c5:/app/data
+  client128:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa12/c6:/app/data
+  client129:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa12/c7:/app/data
+  client130:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa12/c8:/app/data
+  client131:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa12/c9:/app/data
+  client132:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa12/c10:/app/data
+  client133:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa13/c0:/app/data
+  client134:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa13/c1:/app/data
+  client135:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa13/c2:/app/data
+  client136:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa13/c3:/app/data
+  client137:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa13/c4:/app/data
+  client138:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa13/c5:/app/data
+  client139:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa13/c6:/app/data
+  client140:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa13/c7:/app/data
+  client141:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa13/c8:/app/data
+  client142:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa13/c9:/app/data
+  client143:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa13/c10:/app/data
+  client144:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa14/c0:/app/data
+  client145:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa14/c1:/app/data
+  client146:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa14/c2:/app/data
+  client147:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa14/c3:/app/data
+  client148:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa14/c4:/app/data
+  client149:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa14/c5:/app/data
+  client150:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa14/c6:/app/data
+  client151:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa14/c7:/app/data
+  client152:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa14/c8:/app/data
+  client153:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa14/c9:/app/data
+  client154:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa14/c10:/app/data
+  client155:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa15/c0:/app/data
+  client156:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa15/c1:/app/data
+  client157:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa15/c2:/app/data
+  client158:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa15/c3:/app/data
+  client159:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa15/c4:/app/data
+  client160:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa15/c5:/app/data
+  client161:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa15/c6:/app/data
+  client162:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa15/c7:/app/data
+  client163:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa15/c8:/app/data
+  client164:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa15/c9:/app/data
+  client165:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa15/c10:/app/data
+  client166:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa16/c0:/app/data
+  client167:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa16/c1:/app/data
+  client168:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa16/c2:/app/data
+  client169:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa16/c3:/app/data
+  client170:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa16/c4:/app/data
+  client171:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa16/c5:/app/data
+  client172:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa16/c6:/app/data
+  client173:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa16/c7:/app/data
+  client174:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa16/c8:/app/data
+  client175:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa16/c9:/app/data
+  client176:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa16/c10:/app/data
+  client177:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa17/c0:/app/data
+  client178:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa17/c1:/app/data
+  client179:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa17/c2:/app/data
+  client180:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa17/c3:/app/data
+  client181:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa17/c4:/app/data
+  client182:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa17/c5:/app/data
+  client183:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa17/c6:/app/data
+  client184:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa17/c7:/app/data
+  client185:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa17/c8:/app/data
+  client186:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa17/c9:/app/data
+  client187:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa17/c10:/app/data
+  client188:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa18/c0:/app/data
+  client189:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa18/c1:/app/data
+  client190:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa18/c2:/app/data
+  client191:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa18/c3:/app/data
+  client192:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa18/c4:/app/data
+  client193:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa18/c5:/app/data
+  client194:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa18/c6:/app/data
+  client195:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa18/c7:/app/data
+  client196:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa18/c8:/app/data
+  client197:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa18/c9:/app/data
+  client198:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa18/c10:/app/data
+  client199:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa19/c0:/app/data
+  client200:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa19/c1:/app/data
+  client201:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa19/c2:/app/data
+  client202:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa19/c3:/app/data
+  client203:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa19/c4:/app/data
+  client204:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa19/c5:/app/data
+  client205:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa19/c6:/app/data
+  client206:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa19/c7:/app/data
+  client207:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa19/c8:/app/data
+  client208:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa19/c9:/app/data
+  client209:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa19/c10:/app/data
+  client210:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa20/c0:/app/data
+  client211:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa20/c1:/app/data
+  client212:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa20/c2:/app/data
+  client213:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa20/c3:/app/data
+  client214:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa20/c4:/app/data
+  client215:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa20/c5:/app/data
+  client216:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa20/c6:/app/data
+  client217:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa20/c7:/app/data
+  client218:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa20/c8:/app/data
+  client219:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa20/c9:/app/data
+  client220:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa20/c10:/app/data
+  client221:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa21/c0:/app/data
+  client222:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa21/c1:/app/data
+  client223:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa21/c2:/app/data
+  client224:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa21/c3:/app/data
+  client225:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa21/c4:/app/data
+  client226:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa21/c5:/app/data
+  client227:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa21/c6:/app/data
+  client228:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa21/c7:/app/data
+  client229:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa21/c8:/app/data
+  client230:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa21/c9:/app/data
+  client231:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa21/c10:/app/data
+  client232:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa22/c0:/app/data
+  client233:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa22/c1:/app/data
+  client234:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa22/c2:/app/data
+  client235:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa22/c3:/app/data
+  client236:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa22/c4:/app/data
+  client237:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa22/c5:/app/data
+  client238:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa22/c6:/app/data
+  client239:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa22/c7:/app/data
+  client240:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa22/c8:/app/data
+  client241:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa22/c9:/app/data
+  client242:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa22/c10:/app/data
+  client243:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa23/c0:/app/data
+  client244:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa23/c1:/app/data
+  client245:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa23/c2:/app/data
+  client246:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa23/c3:/app/data
+  client247:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa23/c4:/app/data
+  client248:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa23/c5:/app/data
+  client249:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa23/c6:/app/data
+  client250:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa23/c7:/app/data
+  client251:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa23/c8:/app/data
+  client252:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa23/c9:/app/data
+  client253:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa23/c10:/app/data
+  client254:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa24/c0:/app/data
+  client255:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa24/c1:/app/data
+  client256:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa24/c2:/app/data
+  client257:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa24/c3:/app/data
+  client258:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa24/c4:/app/data
+  client259:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa24/c5:/app/data
+  client260:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa24/c6:/app/data
+  client261:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa24/c7:/app/data
+  client262:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa24/c8:/app/data
+  client263:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa24/c9:/app/data
+  client264:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa24/c10:/app/data
+  client265:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa25/c0:/app/data
+  client266:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa25/c1:/app/data
+  client267:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa25/c2:/app/data
+  client268:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa25/c3:/app/data
+  client269:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa25/c4:/app/data
+  client270:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa25/c5:/app/data
+  client271:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa25/c6:/app/data
+  client272:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa25/c7:/app/data
+  client273:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa25/c8:/app/data
+  client274:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa25/c9:/app/data
+  client275:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa25/c10:/app/data
+  client276:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa26/c0:/app/data
+  client277:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa26/c1:/app/data
+  client278:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa26/c2:/app/data
+  client279:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa26/c3:/app/data
+  client280:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa26/c4:/app/data
+  client281:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa26/c5:/app/data
+  client282:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa26/c6:/app/data
+  client283:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa26/c7:/app/data
+  client284:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa26/c8:/app/data
+  client285:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa26/c9:/app/data
+  client286:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa26/c10:/app/data
+  client287:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa27/c0:/app/data
+  client288:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa27/c1:/app/data
+  client289:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa27/c2:/app/data
+  client290:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa27/c3:/app/data
+  client291:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa27/c4:/app/data
+  client292:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa27/c5:/app/data
+  client293:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa27/c6:/app/data
+  client294:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa27/c7:/app/data
+  client295:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa27/c8:/app/data
+  client296:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa27/c9:/app/data
+  client297:
+    environment:
+      - GET_HOSTS_FROM=dns
+    image: "scaleoutsystems/casa-client:latest"
+    build:
+      context: .
+    working_dir: /app
+    command: /bin/bash -c "fedn run client -in fedn-network.yaml"
+    volumes:
+      - ./data/casa27/c10:/app/data
+networks:
+  default:
+    external:
+      name: fedn_default
