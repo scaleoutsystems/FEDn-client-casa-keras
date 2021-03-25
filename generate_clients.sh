@@ -23,6 +23,14 @@ clients_counter=1
         printf '    image: "scaleoutsystems/casa-client:latest"\n'; shift
         printf '    build:\n'; shift
         printf '      context: .\n'; shift
+        printf '    deploy:\n'; shift
+        printf '      resources:\n'; shift
+        printf '        limits:\n'; shift
+        printf "          cpus: '0.50'\n"; shift
+        printf "          memory: '512M'\n"; shift
+        printf '        reservations:\n'; shift
+        printf "          cpus: '0.25'\n"; shift
+        printf "          memory: '128M'\n"; shift
         printf '    working_dir: /app\n'; shift
         printf '    command: /bin/bash -c "fedn run client -in fedn-network.yaml"\n'; shift
         printf '    volumes:\n'; shift
