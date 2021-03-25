@@ -8,8 +8,6 @@ import sys
 import numpy as np
 import scipy
 import scipy.io
-# import sys
-# sys.setrecursionlimit(10000)
 from keras.utils import to_categorical
 import yaml
 

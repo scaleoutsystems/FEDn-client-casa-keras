@@ -34,9 +34,9 @@ def validate(model,data):
 
 if __name__ == '__main__':
 
-    from fedn.utils.kerasweights import KerasWeightsHelper
+    from fedn.utils.kerashelper import KerasHelper
 
-    helper = KerasWeightsHelper()
+    helper = KerasHelper()
     weights = helper.load_model(sys.argv[1])
 
     from models.casa_model import create_seed_model
