@@ -4,3 +4,4 @@ tensorflow
 sklearn
 flask
 minio
+pandas

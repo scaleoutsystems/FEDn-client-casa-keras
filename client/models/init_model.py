@@ -1,4 +1,4 @@
-from fedn.utils.kerasweights import KerasWeightsHelper
+from fedn.utils.kerashelper import KerasHelper
 from models.casa_model import create_seed_model
 
 if __name__ == '__main__':
@@ -8,6 +8,6 @@ if __name__ == '__main__':
 	outfile_name = "seed.npz"
 
 	weights = model.get_weights()
-	helper = KerasWeightsHelper()
+	helper = KerasHelper()
 	#helper.save_model(weights, 'weights.npz')
 	helper.save_model(weights, outfile_name)
