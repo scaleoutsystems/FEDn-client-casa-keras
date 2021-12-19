@@ -1,3 +1,5 @@
+*This example has been moved here: https://github.com/scaleoutsystems/examples/tree/main/Casa-IoT-keras*
+
 # CASA test project
 This classsic example of Human Daily Activity Recognition (HDAR) is well suited both as a lightweight test when learning FEDn and developing on FEDn in psedo-distributed mode. A normal high-end laptop or a workstation should be able to sustain at least 15 clients. The example is also useful for general scalability tests in fully distributed mode. 
 
